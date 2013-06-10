@@ -1,82 +1,126 @@
----
-layout: default
-title: Guides
----
-<div class="hero">
-    <h2>Rails Girls Guides</h2>
-    <p>These guides are built for to give tools and a community for women to understand technology and to build their ideas. Organize your own events, submit new guides or just use them to learn Rails. For more, add yourself to the <a href="http://groups.google.com/group/rails-girls-team">team mailing list</a>.</p>
-    <p class="hero-links">
-    <a href="http://railsgirls.com">Learn more</a><br/>
-    <a href="http://railsgirls-jp.github.com/">Guides in Japanese</a><br/>
-    <a href="http://humancoders.github.com/railspremierspas/">Guides in French</a><br/>
-    <a href="http://rgcn.github.com">Guides in Chinese</a><br/>
-    <a href="http://rgua.github.com">Guides in Russian</a><br/>
-<a href="http://www.maujor.com/railsgirlsguide/">Guides in Brazilian-Portuguese</a><br/>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Guiasrailsgirls by stephfz</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+  </head>
+  <body>
 
-    </p>
-</div>
+      <header>
+        <h1>Guiasrailsgirls</h1>
+        <p>Rails Girls Guides</p>
+      </header>
 
-<hr />
+      <div id="banner">
+        <span id="logo"></span>
 
-<ul class="home">
+        <a href="https://github.com/stephfz/guiasrailsgirls" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/stephfz/guiasrailsgirls/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/stephfz/guiasrailsgirls/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
 
-    <li>
-        <a href="guide">
-          <i> ★</i>
-          <h3>How to Organize a Rails Girls Event</h3>
-          <p>This guide has been put together to help you get started organizing your first Rails Girls event.</p>
-        </a>
-    </li>
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="rails-girls-guides" class="anchor" href="#rails-girls-guides"><span class="octicon octicon-link"></span></a>Rails Girls Guides</h1>
 
-    <li>
-        <a href="install">
-          <i>1</i>
-          <h3>Guía para instalar Rails</h3>
-          <p>Antes de comenzar a construir sus aplicaciones con Ruby on Rails, tienes que instalar en tu computadora, algunos softwares con su respectivo entorno de desarrollo (OS X, Windows, Linux).</p>
-        </a>
-    </li>
+<p>Our aim is to give tools for women to understand technology. The Rails Girls events do this by providing a great first experience on building the Internet.</p>
 
-    <li>
-        <a href="app">
-          <i>2</i>
-          <h3>Desarrolla tu primera aplicación</h3>
-          <p>Aprenda a desarrollar tu primera aplicación con Ruby on Rails.</p>
-        </a>
-    </li>
-    <li>
-        <a href="heroku">
-          <i>3</i>
-          <h3>Publica tu aplicación en línea con Heroku</h3>
-          <p>Instrucciones para conseguir que tu aplicación se ejecute en Heroku.</p>
-        </a>
-    </li>
-    <li>
-      <a href="devise">
-        <i>4</i>
-        <h3>Agregar autentificación con Devise</h3>
-        <p>Como agregar rápidamente un login y registro con Devise</p>
-      </a>
-    </li>
-     <li>
-        <a href="coach">
-          <i>5</i>
-          <h3>Become a Rails Girls coach</h3>
-          <p>All your questions about being a Rails Girls coach - in one place.</p>
-        </a>
-    </li>
-    <li>
-      <a href="how-to-continue-with-programming">
-        <i>6</i>
-        <h3>After The Event: How To Continue With Programming</h3>
-        <p>A guide to keep you going with learning on how to program.</p>
-      </a>
-    </li>
-    <li>
-        <a href="contributing">
-          <i>?</i>
-          <h3>Submit Your Own Guide</h3>
-          <p>We are accepting guides to extend the application to our <a href="http://github.com/railsgirls/railsgirls.github.com">Github repository &rarr;</a></p>
-        </a>
-    </li>
-</ul>
+<p>Rails Girls was founded in end of 2010 in Helsinki. Originally intended as a onetime event, we never thought to see so many local chapters all around the world! This guide has been put together to help you get started.</p>
+
+<p>You can use our materials and instructions to roll out your own workshop in your city, workplace or kitchen! Read more about Rails Girls at <a href="http://railsgirls.com">http://railsgirls.com</a></p>
+
+<h2>
+<a name="quick-start" class="anchor" href="#quick-start"><span class="octicon octicon-link"></span></a>Quick start</h2>
+
+<p>View the guides at <a href="http://guides.railsgirls.com">http://guides.railsgirls.com</a> or clone this repo and install &amp; run <a href="https://github.com/mojombo/jekyll">jekyll</a></p>
+
+<h3>
+<a name="installing-jekyll" class="anchor" href="#installing-jekyll"><span class="octicon octicon-link"></span></a>Installing jekyll</h3>
+
+<p><code>cd railsgirls.github.com</code></p>
+
+<p><code>bundle install</code></p>
+
+<h3>
+<a name="pygments-and-code-highlighting" class="anchor" href="#pygments-and-code-highlighting"><span class="octicon octicon-link"></span></a>Pygments and Code Highlighting</h3>
+
+<p>The guides use the <a href="http://pygments.org/">pygments</a> library to do syntax highlighting. If you don't have it installed you won't be able to see the highlight sections like the following:</p>
+
+<pre><code>{% highlight %}
+{% endhighlight %}
+</code></pre>
+
+<p>If you aren't editing the code blocks, you can safely ignore this. If you want pygments, you can follow the <a href="https://github.com/mojombo/jekyll/wiki/Install">install instructions</a> in the "Pygments" section.</p>
+
+<h3>
+<a name="run-jekyll" class="anchor" href="#run-jekyll"><span class="octicon octicon-link"></span></a>Run jekyll</h3>
+
+<p><code>jekyll --server --auto</code></p>
+
+<h3>
+<a name="having-trouble" class="anchor" href="#having-trouble"><span class="octicon octicon-link"></span></a>Having trouble?</h3>
+
+<p>You might find some useful hints in this jekyll issue if it's not working as expected: <a href="https://github.com/mojombo/jekyll/issues/503">Issue 503</a></p>
+
+<h2>
+<a name="contributing-a-guide" class="anchor" href="#contributing-a-guide"><span class="octicon octicon-link"></span></a>Contributing a Guide</h2>
+
+<p>To contribute a guide, view the instructions at <a href="http://guides.railsgirls.com/contributing">http://guides.railsgirls.com/contributing</a></p>
+
+<h2>
+<a name="twitter" class="anchor" href="#twitter"><span class="octicon octicon-link"></span></a>Twitter</h2>
+
+<p>For updates and more follow <a href="https://twitter.com/railsgirls">@railsgirls</a></p>
+
+<h2>
+<a name="website--blog" class="anchor" href="#website--blog"><span class="octicon octicon-link"></span></a>Website &amp; Blog</h2>
+
+<p>Official website and blog for Rails Girls movement can be found at <a href="http://railsgirls.com">http://railsgirls.com</a></p>
+
+<h2>
+<a name="e-mail-list" class="anchor" href="#e-mail-list"><span class="octicon octicon-link"></span></a>E-mail list</h2>
+
+<p>Global mailing list for Rails Girls events at <a href="http://groups.google.com/group/rails-girls-team">http://groups.google.com/group/rails-girls-team</a></p>
+
+<h2>
+<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<ul>
+<li>Karri Saarinen / <a href="https://twitter.com/karrisaarinen">@karrisaarinen</a> / <a href="http://github.com/ksaa">github</a>
+</li>
+<li>Linda Liukas / <a href="https://twitter.com/lindaliukas">@lindaliukas</a> / <a href="http://github.com/lindaliukas">github</a>
+</li>
+<li>Vesa Vänskä / <a href="https://twitter.com/vesan">@vesan</a> / <a href="http://github.com/vesan">github</a>
+</li>
+<li>Terence Lee / <a href="https://twitter.com/hone02">@hone02</a> / <a href="http://github.com/hone">github</a>
+</li>
+</ul><p>..and all the other coaches and people making Rails Girls awesome. Please add yourself!</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/stephfz">stephfz</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
